@@ -1,4 +1,9 @@
-<!DOCTYPE html>
+<?php
+session_start();
+if (isset($_SESSION['usuario']) && is_array($_SESSION["usuario"])) {
+    header("Location: dashboard.php");
+}
+?>
 <html>
 <head>
     <meta charset="utf-8"/>
