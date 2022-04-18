@@ -1,2 +1,1 @@
-<?php
-//CONNECT WITH THE DATABASE HERE
+//
